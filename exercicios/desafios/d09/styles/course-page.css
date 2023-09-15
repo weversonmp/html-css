@@ -1,0 +1,21 @@
+body {
+  background-color: #1d1d1d;
+  color: white;
+}
+
+.principal {
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.playlist-link {
+  text-decoration: none;
+  color: white;
+}
+
+.principal img {
+  width: 40px;
+}

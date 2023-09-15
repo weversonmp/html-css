@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontes CSS</title>
+    <style>
+      @font-face {
+        font-family: 'picturama';
+        src: url('./fonts/picturama.otf') format(opentype), url('./fonts/picturama.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+        /*
+          Tipos de format()
+          - opentype (otf)
+          - truetype (ttf)
+          - embedded-opentype
+          - truetype-aat (Apple Advanced Typography)
+          - svg
+          */
+      }
+      body {
+        /*
+        Medidas absolutas
+        cm, mm, in, px, pt, pc
+
+        Medidas Relativas
+        em, ex, rem, vw, vh, %
+        */
+
+        font-size: 1em;
+      }
+      h1 {
+        font: italic bolder 3em sans-serif;
+        font-family: picturama;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Trabalhando com fontes</h1>
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, quos excepturi.
+      Expedita tempore odit voluptas nulla facilis aliquid tenetur saepe illo maiores, dolorem animi
+      modi molestiae, quam accusantium! Ipsam, culpa. Lorem ipsum, dolor sit amet consectetur
+      adipisicing elit. Asperiores suscipit ipsa molestiae magnam cum error expedita officia
+      voluptatem, inventore quam, unde corrupti dolorem ducimus. Unde, saepe excepturi? Laudantium,
+      nihil vel.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Error maiores velit doloribus impedit
+      esse reiciendis sequi consectetur inventore modi veritatis, eligendi ab autem excepturi nulla
+      ipsum laborum. Labore, laudantium necessitatibus.
+    </p>
+    <h2>Subtítulo do exercício</h2>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nostrum corrupti, sapiente
+      dolorum, consectetur laborum repudiandae ullam atque eaque veritatis accusamus nisi repellat
+      possimus nulla in, laboriosam rem sed omnis? lore
+    </p>
+  </body>
+</html>

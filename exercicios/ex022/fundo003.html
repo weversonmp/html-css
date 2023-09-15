@@ -1,44 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teste de aplicação de Fundo</title>
-  <style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Teste de aplicação de Fundo</title>
+    <style>
+      .bloco {
+        background-image: url(imagens/wallpaper003.jpg);
+        height: 200px;
+        border: 1px solid black;
+        border-radius: 10px;
+        margin: 10px;
+      }
 
-    .bloco {
-      background-image: url(imagens/wallpaper003.jpg);
-      height: 200px;
-      border: 1px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
+      #q1 {
+        background-position: left top;
+      }
 
-    #q1 {
-      background-position: left top;
-    }
+      #q2 {
+        background-position: left center;
+      }
 
-    #q2 {
-      background-position: left center;
-      
-    }
+      #q3 {
+        background-position: right bottom;
+      }
 
-    #q3 {
-      background-position: right bottom;
-      
-    }
-
-    #q4 {
-      background-position: center center;
-      
-    }
-  </style>
-</head>
-<body>
-  <div class="bloco" id="q1"></div>
-  <div class="bloco" id="q2"></div>
-  <div class="bloco" id="q3"></div>
-  <div class="bloco" id="q4"></div>
-  
-</body>
+      #q4 {
+        background-position: center center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="bloco" id="q1"></div>
+    <div class="bloco" id="q2"></div>
+    <div class="bloco" id="q3"></div>
+    <div class="bloco" id="q4"></div>
+  </body>
 </html>

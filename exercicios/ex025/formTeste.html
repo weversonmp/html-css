@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="cadastro.php" method="get">
+      <fieldset>
+        <label for="icpf">CPF: </label>
+        <input
+          placeholder="somente números"
+          type="number"
+          name="cpf"
+          id="icpf"
+          pattern="^\d{11}$"
+          required
+        />
+        <p>
+          <input type="submit" value="Enviar" />
+          <input type="reset" value="Limpar" />
+        </p>        
+      </fieldset>
+    </form>
+  </body>
+</html>
